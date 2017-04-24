@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* section 1 */
+#section1 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+/* section 2 */
+#section2 {
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+/* section 3 */
+#section3 {
+  width: 100%;
+  overflow: auto;
+  background: gray;
+}
+
+#left, #right {
+  width: 49%;
+  height: 100%;
+  margin: 5px;
+  padding: 1em;
+  background: white;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
